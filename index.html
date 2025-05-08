@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presentazioni e tabelle- Servizi Professionali</title>Amane Ezarte
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f4f7fa;
+      color: #333;
+    }
+
+    header {
+      background: #1a1a2e;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #00adb5;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 0;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      text-align: center;
+      color: #00adb5;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 30px;
+      padding: 20px 0;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 300px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease;
+      margin-bottom: 30px;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .card h3 {
+      font-family: 'Montserrat', sans-serif;
+      color: #007bff;
+      font-size: 1.6rem;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 1rem;
+      color: #666;
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #28a745;
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: #00adb5;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 10px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #007b8a;
+    }
+
+    #pagamenti, #contatti {
+      background-color: #f8f9fa;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    #pagamenti ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 20px;
+      font-size: 1.2rem;
+    }
+
+    #pagamenti li {
+      margin: 10px 0;
+    }
+
+    footer {
+      background-color: #1a1a2e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .paypal-container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .paypal-btn {
+      margin-top: 20px;
+    }
+
+    .paypal-btn form {
+      display: inline-block;
+    }
+
+    @media screen and (max-width: 800px) {
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>www.presentazionetabelle.com</h1>
+    <p>Servizi Professionali: PowerPoint e Tabelle Excel</p>
+  </header>
+
+  <div class="container">
+    <h2>Pacchetti PowerPoint</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="placeholder-img" style="height: 180px; background: #e0e0e0; border-radius: 10px;"></div>
+        <h3>Basic PowerPoint</h3>
+        <p>Presentazione semplice e pulita per uso scolastico o aziendale.</p>
+        <p class="price">5€</p>
+        <div id="paypal-container-LFNX8YXRNPT7G" class="paypal-btn"></div>
+      </div>
+
+      <div class="card">
+        <div class="placeholder-img" style="height: 180px; background: #e0e0e0; border-radius: 10px;"></div>
+        <h3>Standard PowerPoint</h3>
+        <p>Con grafici, animazioni leggere e uno stile professionale.</p>
+        <p class="price">10€</p>
+        <div id="paypal-container-KSD7TZLXF747S" class="paypal-btn"></div>
+      </div>
+
+      <div class="card">
+        <div class="placeholder-img" style="height: 180px; background: #e0e0e0; border-radius: 10px;"></div>
+        <h3>Full-Featured PowerPoint</h3>
+        <p>Grafica su misura, animazioni complesse e transizioni dinamiche.</p>
+        <p class="price">15€</p>
+        <div id="paypal-container-39NMCKNGDZUBC" class="paypal-btn"></div>
+      </div>
+    </div>
+
+    <h2>Pacchetti Excel</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="placeholder-img" style="height: 180px; background: #e0e0e0; border-radius: 10px;"></div>
+        <h3>Basic Excel</h3>
+        <p>Tabella base per gestione dati con formule di base.</p>
+        <p class="price">5€</p>
+      </div>
+
+      <div class="card">
+        <div class="placeholder-img" style="height: 180px; background: #e0e0e0; border-radius: 10px;"></div>
+        <h3>Standard Excel</h3>
+        <p>Excel con grafici, tabelle pivot e altre funzionalità avanzate.</p>
+        <p class="price">10€</p>
+      </div>
+
+      <div class="card">
+        <div class="placeholder-img" style="height: 180px; background: #e0e0e0; border-radius: 10px;"></div>
+        <h3>Full-Featured Excel</h3>
+        <p>Soluzione avanzata con macro, tabelle dinamiche e automazioni.</p>
+        <p class="price">15€</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="pagamenti" class="container">
+    <h2>Metodi di Pagamento</h2>
+    <ul>
+      <li>PayPal: scegli il pacchetto e paga direttamente tramite il pulsante sottostante.</li>
+      <li>Carte di credito e debito tramite PayPal.</li>
+    </ul>
+    
+    <div class="paypal-container">
+      <!-- Button for Basic PowerPoint -->
+      <script src="https://www.paypal.com/sdk/js?client-id=BAAqT6hGJVh8Og39rNW0rH155DOwH6RNTYb9okVPyG4n0yd7eAm_9uKNvC4zGYg1sr4ld-6nvHP6FdS660&components=hosted-buttons&disable-funding=venmo&currency=EUR"></script>
+      <div id="paypal-container-LFNX8YXRNPT7G"></div>
+      <script>
+        paypal.HostedButtons({
+          hostedButtonId: "LFNX8YXRNPT7G",
+        }).render("#paypal-container-LFNX8YXRNPT7G");
+      </script>
+
+      <!-- Button for Standard PowerPoint -->
+      <script src="https://www.paypal.com/sdk/js?client-id=BAAqT6hGJVh8Og39rNW0rH155DOwH6RNTYb9okVPyG4n0yd7eAm_9uKNvC4zGYg1sr4ld-6nvHP6FdS660&components=hosted-buttons&disable-funding=venmo&currency=EUR"></script>
+      <div id="paypal-container-KSD7TZLXF747S"></div>
+      <script>
+        paypal.HostedButtons({
+          hostedButtonId: "KSD7TZLXF747S",
+        }).render("#paypal-container-KSD7TZLXF747S");
+      </script>
+
+      <!-- Button for Full-Featured PowerPoint -->
+      <script src="https://www.paypal.com/sdk/js?client-id=BAAqT6hGJVh8Og39rNW0rH155DOwH6RNTYb9okVPyG4n0yd7eAm_9uKNvC4zGYg1sr4ld-6nvHP6FdS660&components=hosted-buttons&disable-funding=venmo&currency=EUR"></script>
+      <div id="paypal-container-39NMCKNGDZUBC"></div>
+      <script>
+        paypal.HostedButtons({
+          hostedButtonId: "39NMCKNGDZUBC",
+        }).render("#paypal-container-39NMCKNGDZUBC");
+      </script>
+    </div>
+  </div>
+
+  <section id="contatti" class="container">
+    <h2>Contattami</h2>
+    <p><strong>Telefono:</strong> +39 3509613233</p>
+    <p><strong>Email:</strong> <a href="mailto:brawl.23333@gmail.com">brawl.23333@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mane Ezarte - Tutti i diritti riservati</p>
+  </footer>
+
+</body>
+</html>
